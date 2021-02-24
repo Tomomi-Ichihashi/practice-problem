@@ -17,17 +17,27 @@
 }
 .main {
   width: 960px;
-  height: 1400px;
-  background-color: palegreen;
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
 
-.main1 {
+.sidebar-left {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
+}
+
+.blog {
   width: 500px;
   height: 1400px;
   background-color: limegreen;
+}
+
+.sidebar-right {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
 }
 
 .footer {
