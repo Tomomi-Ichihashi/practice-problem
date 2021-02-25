@@ -24,10 +24,14 @@ main {
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0 auto;
-  background-color: paleturquoise;
 }
 
 .box {
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+}
+
+.box1 {
   border-bottom: 1px solid gray;
   padding-top: 30px;
   padding-bottom: 30px;
