@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.list {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list-items {
+  padding: 20px 0 20px 20px;
+}
+
+.list-items:nth-child(odd) {
+  background-color: #dcdcdc;
+}
+
+.box {
+  width: 960px;
+  margin: 0 auto auto 50px;
+  flex-wrap: wrap;
+}
+
+.color-box {
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  background-color: #ffff00;
+}
+
+#orange {
+  background-color: #ffa500;
+}
