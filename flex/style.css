@@ -55,6 +55,7 @@ footer {
   background-color: #1e90ff;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 footer > div {
@@ -63,8 +64,4 @@ footer > div {
   height: 40px;
   margin: 10px;
   background: #87cefa;
-}
-
-footer > div:last-child {
-  margin: 10px auto;
 }
